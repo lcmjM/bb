@@ -1,0 +1,159 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>确认订单</title>
+	<link rel="stylesheet" href="css/common.css" type="text/css">
+	<script src="js/jquery.js"></script>	
+	<script src="js/mdj.js"></script>
+	<script src="js/citys.js"></script>
+</head>
+<body class="con-body">
+	<div class="con-nav">
+		<div class="con-nav-main">
+			<img src="img/confirm1.png">
+			<span><a href="">牡丹街首页</a></span>	
+		<div class="con-nav-right fr">
+			<span class="con-show"><a href="">萌萌小柯基<img src="img/down.png"></a>
+			<ul class="con-show-1 con-nav-show">
+				<li><a href="">萌萌小柯基</a></li>
+				<li><a href="">萌萌小柯基</a></li>
+				<li><a href="">萌萌小柯基</a></li>
+			</ul></span>
+			<span class="con-show"><a href="">我的收藏<img src="img/down.png"></a>
+			<ul class="con-show-1 con-nav-show1">
+				<li><a href="">我的收藏</a></li>
+				<li><a href="">我的收藏</a></li>
+				<li><a href="">我的收藏</a></li>
+			</ul></span>			
+			<span><a href=""><img src="img/confirm2.png">我的订单</a></span>
+			<span><a href=""><img src="img/confirm3.png">购物车</a></span>
+			<span class="con-show"><a href="">帮助中心<img src="img/down.png"></a>
+			<ul class="con-show-1 con-nav-show1">
+				<li><a href="">帮助中心</a></li>
+				<li><a href="">帮助中心</a></li>
+				<li><a href="">帮助中心</a></li>
+			</ul></span>			
+		</div>
+		</div>
+	</div>
+	<div class="con-head">
+		<div class="con-head-main">
+		<img src="img/confirm5.png">
+		<div class="fr">
+		<img src="img/confirm6.png"  class="ml10"><br>
+		<span class="ff4">购物车</span>
+		<span class="ff4 ml120">确认订单</span>
+		<span class="ml112">支付</span>
+		<span class="ml130">完成</span>
+		</div>
+		</div>
+	</div>
+	<div class="con-content">
+		<div class="pl25 pr25">
+			<div class="con-top">
+				选择收货地址
+			</div>
+			<div class="con-address-main">
+				<div class="con-address">
+					姓名<div class="con-name1"></div><br>
+					详细地址<div></div>
+					市区街道<div class="con-street"></div><br>
+					联系方式<div class="con-tel1"></div>
+				</div>
+			</div>
+			<div class="con-one">
+				<span><a href="address.html">管理收货地址</a></span><span class="open-address"><a>使用新地址</a></span>
+			</div>
+			<div class="con-two">
+				确认商品信息
+			</div>
+			<div class="con-three">
+				<span>商品</span>
+				<span>商品信息</span>
+				<span>单价(元)</span>
+				<span>数量</span>
+				<span>优惠</span>
+				<span>小计(元)</span>
+			</div>
+			<div class="con-four">
+				<span>店铺:美丽优选</span>  <span>联系客服</span>
+			</div>
+			<div class="con-five">
+				<img src="img/confirm7.png" class="fl">
+				<span><a href="">2017春季新品几何刺绣花朵韩版百搭中长款宽松牛仔外套</a></span>
+				<span>颜色:黑色<br>尺码:M</span>
+				<span class="con-text">106.25</span>
+				<span>1</span>
+				<span>106.25</span>
+			</div>
+			<div class="con-six">
+				备注:<input type="text" value="补充添加备注信息">
+				<span>快递公司:</span>
+				<select name="" id="">
+					<option value="">全国包邮</option>
+					<option value="">全国包邮</option>
+					<option value="">全国包邮</option>
+				</select>
+				<span>快递运费:  ¥  0.00</span>
+			</div>
+		</div>
+		<div class="con-bot">
+			<div class="fl mt15">
+				<img src="img/left.png"><span><a href="shopping_trolley.html">返回购物车</a></span>
+			</div>
+			<div class="con-right fr">
+				<span>共有 1 件商品，总计：</span>
+				<span>¥106.25</span>
+				<a href="pay.html"><input type="button" value="确认并付款" class="con-btn"></a>
+			</div>
+		</div>
+	</div>
+	<div class="new-address">
+		<div class="new-address-top">
+			创建地址<img src="img/cha.png" class="fr con-close">
+		</div>
+		<div class="con-address1">
+			<span>新增收货地址</span>
+			<span>电话号码、手机号选填一项, 其余均为必填项</span>
+		</div>
+		<div class="font12">	
+		<form action="" name="address">
+			<span class="con-addressl mt20">所在地区<span class="fc6">*</span></span>
+			<select name="province" id="province">
+				<option value="">请选择省份</option>
+			</select>
+			<select name="city" id="city">
+				<option value="">请选择城市</option>
+			</select>
+			<select name="area" id="area">
+				<option value="">请选择地区</option>
+			</select>
+		</form>			
+			<br>
+			<span class="con-addressl mt15">详细地址<span class="fc6">*</span></span>
+			<textarea name="" id="" cols="30" rows="10" class="vert mt15 con-area"></textarea><br>
+			<span class="con-addressl mt15">邮政编码</span><input type="text" class="ml5"><br>
+			<span class="con-addressl mt15">收货人姓名
+				<span class="fc6">*</span>
+			</span><input type="text" class="ml5 con-name"><br>
+			<span class="con-addressl mt15">手机号码</span>
+			<select name="" id="">
+				<option value="">中国大陆+86</option>
+			</select><input type="text" class="con-tel"><br>
+			<span class="con-addressl mt15">电话号码</span>
+			<select name="" id="">
+				<option value="">中国大陆+86</option>
+			</select>
+			<input type="text">-<input type="text">-<input type="text"><br>
+			<span class="con-addressl mt20"></span>
+			<input type="checkbox">
+			设置为默认收货地址<br>
+			<span class="con-addressl"></span>
+			<input type="button" value="保存" class="mt15 con-save">				
+		</div>		
+	</div>
+	<div class="con-b">
+	</div>
+</body>
+</html>

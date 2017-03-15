@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>地址管理</title>
+	<link rel="stylesheet" href="css/common.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/mdj.js"></script>
+</head>
+<body class="add-body">
+	<div class="address-nav">
+		<div class="add-nav">
+			<div class="add-nav-right">
+				<span class="wd65"><a href="login.html">登录</a></span>
+				<span class="wd65"><a href="register.html">注册</a></span>
+				<span class="wd114">
+					<img src="img/xingx.png" class="verm">
+					<a href="">我的收藏</a></span>
+				<span class="wd114">
+					<img src="img/confirm3.png" class="verm">
+					<a href="">我的购物车</a></span>
+				<span class="wd114">
+					<img src="img/address1.png" class="verm">
+					<a href="">我的订单</a></span>
+				<span class="wd114"><a href="">帮助中心</a></span>
+			</div>
+		</div>
+	</div>
+	<div class="address-logo">
+		<div class="add-logo">
+			<img src="img/address.png">
+		</div>		
+	</div>
+	<div class="address-content">
+		<div class="add-con-top">
+			<span>地址管理</span>
+		</div>
+		<div>
+			<input type="button" value="地址管理" class="add-btn">
+		</div>
+		<div class="add-con-mid">
+			<span class="add-con-name">姓名</span>
+			<span class="ml20">浙江省杭州市江干区（地址）</span>
+			<span class="ml112">03000</span>
+			<span class="ml20">13934510081</span>
+			<span class="c9 ml188 add-def">设为默认</span>
+			<span class="c9 ml5 add-edit">编辑</span>
+			<span class="c9 ml5 add-del">删除</span>
+		</div>
+	</div>
+	<div class="add-footer">
+		<div class="log-footer">
+			<ul>
+				<li class="log-text"><a href="">买家帮助</a></li>
+				<li><a href="">新手指南</a></li>
+				<li><a href="">服务保障</a></li>
+				<li><a href="">常见问题</a></li>
+				<li><a href="">风险监测</a></li>				
+			</ul>
+			<ul>
+				<li class="log-text"><a href="">商家帮助</a></li>
+				<li><a href="">商家入驻</a></li>
+				<li><a href="">商家后台</a></li>
+				<li></li>
+				<li></li>				
+			</ul>
+			<ul>
+				<li class="log-text"><a href="">关于我们</a></li>
+				<li><a href="">关于牡丹街</a></li>
+				<li><a href="">联系我们</a></li>
+				<li></li>
+				<li></li>				
+			</ul>
+			<ul>
+				<li class="log-text"><a href="">关注我们</a></li>
+				<li><img src="img/login5.png"><a href="">新浪微博</a></li>
+				<li><img src="img/login6.png"><a href="">QQ空间</a></li>
+				<li><img src="img/login7.png"><a href="">腾讯微博</a></li>
+				<li></li>				
+			</ul>									
+		</div>
+	</div>
+	<div class="new-address">
+		<div class="new-address-top">
+			创建地址<img src="img/cha.png" class="fr con-close">
+		</div>
+		<div class="con-address1">
+			<span>新增收货地址</span>
+			<span>电话号码、手机号选填一项, 其余均为必填项</span>
+		</div>
+		<div class="font12">	
+		<form action="" name="address">
+			<span class="con-addressl mt20">所在地区<span class="fc6">*</span></span>
+			<select name="province" id="province">
+				<option value="">请选择省份</option>
+			</select>
+			<select name="city" id="city">
+				<option value="">请选择城市</option>
+			</select>
+			<select name="area" id="area">
+				<option value="">请选择地区</option>
+			</select>
+		</form>			
+			<br>
+			<span class="con-addressl mt15">详细地址<span class="fc6">*</span></span>
+			<textarea name="" id="" cols="30" rows="10" class="vert mt15 con-area"></textarea><br>
+			<span class="con-addressl mt15">邮政编码</span><input type="text" class="ml5"><br>
+			<span class="con-addressl mt15">收货人姓名
+				<span class="fc6">*</span>
+			</span><input type="text" class="ml5 con-name"><br>
+			<span class="con-addressl mt15">手机号码</span>
+			<select name="" id="">
+				<option value="">中国大陆+86</option>
+			</select><input type="text" class="con-tel"><br>
+			<span class="con-addressl mt15">电话号码</span>
+			<select name="" id="">
+				<option value="">中国大陆+86</option>
+			</select>
+			<input type="text">-<input type="text">-<input type="text"><br>
+			<span class="con-addressl mt20"></span>
+			<input type="checkbox">
+			设置为默认收货地址<br>
+			<span class="con-addressl"></span>
+			<input type="button" value="保存" class="mt15 con-save">				
+		</div>		
+	</div>
+	<div class="con-b">
+	</div>	
+</body>
+</html>

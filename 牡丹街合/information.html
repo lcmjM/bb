@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>个人信息</title>
+	<script src="js/jquery.js"></script>
+	<script src="js/citys.js"></script>
+	<script src="js/mdj.js"></script>
+	<link rel="stylesheet" href="css/base1.css">
+	<link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+	<div class="in-guide">
+		<ul>
+			<li><a href="login.html">登录</a></li>
+			<li><a href="register.html">注册</a></li>
+			<li><a href=""><img src="img/in-star.png" alt="">&nbsp;&nbsp;我的收藏</a></li>
+			<li><a href=""><img src="img/in-buycar.png" alt="">&nbsp;&nbsp;我的购物车</a></li>
+			<li><a href=""><img src="img/in-order.png" alt="">&nbsp;&nbsp;我的订单</a></li>
+			<li><a href="">帮助中心</a>
+				<ul>
+					<li><a href="">卖家服务</a></li>
+					<li><a href="">规则中心</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div class="in-head container clearfix">
+		<a href=""><div class="in-head-logo fl clearfix">
+			<img src="img/in-logo.png" alt="">
+		</div></a>
+		<div class="fl clearfix">
+			<p>牡丹街</p>
+			<p>美，就现在</p>
+		</div>
+		<div class="in-head-search fr clearfix">
+			<p><span>宝贝</span><span>店铺</span></p>
+			<div>
+				<input type="text"><button></button>
+			</div>
+			<a href="">早春新款</a>&nbsp;
+			<a href="">运动鞋</a>&nbsp;
+			<a href="">衬衫</a>&nbsp;
+			<a href="">薄外套</a>&nbsp;
+			<a href="">牛仔</a>&nbsp;
+			<a href="">T恤</a>&nbsp;
+			<a href="">套装</a>&nbsp;
+			<a href="">牛仔裤</a>&nbsp;
+			<a href="">开衫</a>
+		</div>
+	</div>
+	<div class="in-topnav">
+		<div class="container">
+			<ul>
+				<li class="in-subnav in-sub-1"><a href="">全部商品</a></li>
+				<li class="in-subnav in-sub-2"><a href="">首页</a></li>
+				<li class="in-subnav in-sub-3"><a href="">风格号店</a></li>
+				<li class="in-subnav in-sub-3"><a href="">好物</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="in-main container clearfix">
+		<div class="in-main-left fl clearfix">
+			<div class="in-ico">
+				<canvas id="cvs" width="200" height="200"></canvas>
+				<span class="btn upload"><input type="file" class="upload_pic" id="upload" /></span>
+				<p>姓名</p>
+			</div>
+			<div>
+				<ul>
+					<li class="in-main-order"><a href="javascript:void(0)">我的订单</a>
+						<ul class="in-main-subnav">
+							<li><a href="">全部订单</a></li>
+							<li><a href="">待付款</a></li>
+							<li><a href="">待收款</a></li>
+							<li><a href="">待评价</a></li>
+							<li><a href="">退款退货</a></li>
+						</ul>
+					</li>
+					<li><a href="">订单回收站</a></li>
+					<li><a href="">我的足迹</a></li>
+					<li><a href="">收货地址</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="in-main-right fr clearfix">
+			<div class="in-ma-ri-top">
+				我的信息
+			</div>
+			<div class="in-main-note fl clearfix">
+				<p>注册邮箱</p>
+				<p>真实姓名</p>
+				<p>昵称</p>
+				<p>性别</p>
+				<p>生日</p>
+				<p>所在地</p>
+				<p>从事事业</p>
+				<p>个人说明</p>
+			</div>
+			<div class="in-main-write fl clearfix">
+				<div>
+					<input type="text" id="in-put1">
+					<p>*请填写邮箱</p>
+				</div>
+				<div>
+					<input type="text" id="in-put2">
+					<p>*请填写真实姓名</p>
+				</div>
+				<div>
+					<input type="text" id="in-put3">
+					<p>*请填写昵称</p>
+				</div>
+				<div>
+					<label for="in-cbox1" id="in-la1"><span></span></label>
+					<input type="radio" id="in-cbox1"><span>女</span>
+					<label for="in-cbox2" id="in-la2"><span></span></label>
+					<input type="radio" id="in-cbox2" checked="checked"><span>男</span>
+				</div>
+				<div>
+					<input type="text" id="in-put4">
+					<p>*请填写生日</p>
+				</div>
+				<div>
+					<select  id="in-province">
+						<option value="">请选择省份</option>
+					</select>
+					<select id="in-city">
+						<option value="">请选择城市</option>
+					</select>
+					<p>*请填写地址</p>
+				</div>
+				<div>
+					<select id="in-work">
+						<option value="">请选择工作</option>
+						<option value="">教师</option>
+					</select>
+					<p>*请填写职业</p>
+				</div>
+				<textarea name="" id="in-put5" ></textarea>	
+				<p>*请填写个人说明</p>
+				<button id="in-check">确认</button>
+				<p>*请填写完整个人信息</p>
+			</div>
+		</div>
+	</div>
+	<div class="in-line"></div>
+	<div class="re-foot">
+		<div class="re-msg">
+			<div class="fl clearfix">
+				<p>买家帮助</p>
+				<p><a href="">新手指南</a></p>
+				<p><a href="">服务保障</a></p>
+				<p><a href="">常见问题</a></p>
+				<p><a href="">风险监测</a></p>
+			</div>
+			<div class="fl clearfix">
+				<p>商家帮助</p>
+				<p><a href="">商家入驻</a></p>
+				<p><a href="">商家后台</a></p>
+			</div>
+			<div class="fl clearfix">
+				<p>关于我们</p>
+				<p><a href="">关于牡丹街</a></p>
+				<p><a href="">联系我们</a></p>
+			</div>
+			<div class="fl clearfix">
+				<p>关注我们</p>
+				<p><a href=""><img src="img/re-xinlang.png" alt=""></a><a href=""> 新浪微博</a></p>
+				<p><a href=""><img src="img/re-qq.png" alt=""></a><a href=""> QQ空间</a></p>
+				<p><a href=""><img src="img/re-tencent.png" alt=""></a><a href=""> 腾讯微博</a></p>
+			</div>
+		</div>
+		<div>
+			<p>Copyright&copy;2017 Meilishuo.com 电信与信息服务业务 经营许可证100798号 经营性网站备案信息</p>
+			<p>京ICP备11031139号 京公安网备110108006045 客服电话：400-800-577 文明办网文明上网举报电话：010-82615762 违法不良信息举报中心</p>
+		</div>
+	</div>
+</body>
+</html>

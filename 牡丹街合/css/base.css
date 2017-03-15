@@ -1,0 +1,166 @@
+/*基本样式*/
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	color:#666666;
+	font-size:11px;
+	font-family:微软雅黑;
+}
+a{
+	text-decoration:none;
+	color:#666666;
+}
+a:link, a:visited {
+	text-decoration:none;
+}
+li{
+	list-style:none;
+}
+input,textarea,button,select,meter{
+	-webkit-appearance: none;
+	appearance: none;
+	border-radius:0; 
+	-webkit-border-radius:0;
+	border:none;
+	outline:none;
+}
+img, input, button, select, textarea {
+	vertical-align:middle;
+}
+/*边框*/
+.dashed_1{
+	border-right:1px dashed #8B8B8B;
+}
+.dashed_2{
+	border-bottom:1px dashed #DDDDDD;
+}
+.borl{
+	border-left:1px solid #DDDDDD;
+}
+.borr{
+	border-right:1px solid #DDDDDD;
+}
+.bor{
+	border:1px solid #DDDDDD;
+}
+.borb{
+	border-bottom:1px solid #DDDDDD;
+}
+.bort{
+	border-top:1px solid #DDDDDD;
+}
+/*背景颜色*/
+/*红色*/
+.bg_1{
+	background:#D6133B;
+}
+/*大红色*/
+.bg_2{
+	background:#A60425;
+}
+/*淡灰色*/
+.bg_3{
+	background:#F4F4F4;
+}
+/*橘黄色*/
+.bgE77607{
+	background:#E77607;
+}
+/*粉色*/
+.bgF680E4{
+	background:#F680E4;
+}
+/*青绿色*/
+.bg07D0BB{
+	background:#07D0BB;
+}
+/*灰白色*/
+.bgF7F7F7{
+	background:#F7F7F7;
+}
+/*字体颜色*/
+/*黑色*/
+.color_1{
+	color:#070303;
+}
+/*灰色*/
+.color_2{
+	color:#666666;
+}
+/*白色*/
+.color_3{
+	color:#ffffff;
+}
+/*雅黑*/
+.color_4{
+	color:#3C3C3C;
+}
+/*淡灰色*/
+.color_5{
+	color:#A1A2A2;
+}
+/*橘黄色*/
+.color_6{
+	color:#F78B0A;
+}
+/*宽度*/
+.wd1200{
+	width:1200px;
+}
+.wd1010{
+	width:1010px;
+}
+/*外边距*/
+.ma{
+	margin:0 auto;
+}
+.ml100{
+	margin-left:100px;
+}
+.mt110{
+	margin-top:110px;
+}
+/*定位方式*/
+.pst_a{
+	position:absolute;
+}
+.pst_r{
+	position:relative;
+}
+/*对齐方式*/
+.texc{
+	text-align:center;
+}
+.texl{
+	text-align:center;
+}
+.texr{
+	text-align:center;
+}
+/*展示方式*/
+.block{
+	display:block;
+}
+.in-block{
+	display:inline-block;
+}
+.in{
+	display:inline;
+}
+.none{
+	display:none;
+}
+/*浮动方式*/
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+/*清除浮动*/
+.clearfix:before,.clearfix:after{content:"."; display:block; visibility:hidden; height:0; line-height:0; font-size:0;}
+.clearfix:after{clear:both;}
+.clearfix{zoom:1;}
+.clear{clear:both; height:0;overflow:hidden;}
